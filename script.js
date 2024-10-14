@@ -1,6 +1,6 @@
 const userId = "1295084921357991996";
 const apiUrl = `https://api.lanyard.rest/v1/users/${userId}`;
-const serverInvite = "https://discord.gg/esquelesquad";
+const serverInvite = "https://discord.gg/BEu6nqSu";
 
 async function fetchUserData() {
     try {
@@ -22,7 +22,7 @@ async function fetchUserData() {
 
 async function fetchServerInfo() {
     try {
-        const response = await fetch(`https://discord.com/api/v9/invites/esquelesquad?with_counts=true`);
+        const response = await fetch(`https://discord.com/api/v9/invites/BEu6nqSu?with_counts=true`);
         const data = await response.json();
         const server = data.guild;
 
