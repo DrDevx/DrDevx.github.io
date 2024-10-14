@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <video id="bg-video" autoplay muted loop>
+        <source src="https://cdn.discordapp.com/attachments/1293001452809093160/1295170413550239815/mylivewallpapers-com-Roman-Statue-FHD.mp4?ex=670dacf1&is=670c5b71&hm=e3020f3d0300449847a9072532aab91feacf9e1490a9b5f3def736a00b7d34ad" type="video/mp4">
+    </video>
+
+    <canvas id="particles"></canvas>
+
+    <div id="enter" class="enter">Click to Enter</div>
+    <div id="content" class="container" style="display: none;">
+        <div class="custom-profile">
+            <img id="custom-avatar" class="custom-avatar" src="https://i.imgur.com/gNNjWif.jpeg" alt="Custom Avatar">
+            <div class="custom-info">
+                <h1 id="custom-username">Dr. Dev</h1>
+                <p id="custom-message" class="typing-effect">hello, world</p>
+            </div>
+        </div>
+
+        <div class="lanyard-section">
+            <div class="profile-card">
+                <img id="avatar" class="avatar" src="" alt="User Avatar">
+                <div class="profile-info">
+                    <h1 id="username">Loading...</h1>
+                    <p id="activity">Loading...</p>
+                </div>
+            </div>
+            <div class="server-card">
+                <img id="server-icon" class="server-icon" src="" alt="Server Icon">
+                <div class="server-info">
+                    <h2 id="server-name">Loading...</h2>
+                    <p id="server-members">Loading...</p>
+                    <button class="join-button" onclick="joinServer()">Join</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-icons">
+            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111370.png" alt="Discord Icon" class="footer-icon">
+            <img src="https://cdn-icons-png.flaticon.com/512/888/888879.png" alt="Website Icon" class="footer-icon">
+            <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube Icon" class="footer-icon">
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Icon" class="footer-icon">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
